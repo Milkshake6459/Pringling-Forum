@@ -1,5 +1,5 @@
 {
-  "forum_thread": [
+  "forum_posts": [
     {
       "post_title": "Introduction to Pringling",
       "user_info": {
