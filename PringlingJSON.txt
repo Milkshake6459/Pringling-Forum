@@ -3,7 +3,7 @@
     {
       "post_title": "Introduction to Pringling",
       "user_info": {
-        "user_name": "User1",
+        "user_name": "FrostBite",
         "profile_picture": "user1_profile.jpg",
         "post_count": 5
       },
@@ -14,12 +14,12 @@
     {
       "post_title": "Miniature Landmark Replicas",
       "user_info": {
-        "user_name": "User2",
+        "user_name": "GallaghersMallet",
         "profile_picture": "user2_profile.jpg",
         "post_count": 3
       },
       "post_date": "March 1, 2024",
-      "post_content": "Hi User1! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?",
+      "post_content": "Hi FrostBite! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?",
       "quote": "This is another quote from the post author."
     }
   ]
