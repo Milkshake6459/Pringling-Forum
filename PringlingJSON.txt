@@ -1,14 +1,18 @@
-[
-  {
-    "user": "User1",
-    "profile_picture": "user1_profile.jpg",
-    "date": "February 29, 2024",
-    "content": "Hey everyone, I'm really excited to be here! I've been experimenting with pringling lately and I'm amazed by the possibilities. Just yesterday, I molded a miniature sculpture of a cat into a potato chip shape. It turned out so cute! Does anyone else here enjoy pringling?"
-  },
-  {
-    "user": "User2",
-    "profile_picture": "user2_profile.jpg",
-    "date": "March 1, 2024",
-    "content": "Hi User1! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?"
-  }
-]
+{
+  "forum_thread": [
+    {
+      "post_title": "Introduction to Pringling",
+      "user_name": "User1",
+      "profile_picture": "user1_profile.jpg",
+      "post_date": "February 29, 2024",
+      "post_content": "Hey everyone, I'm really excited to be here! I've been experimenting with pringling lately and I'm amazed by the possibilities. Just yesterday, I molded a miniature sculpture of a cat into a potato chip shape. It turned out so cute! Does anyone else here enjoy pringling?"
+    },
+    {
+      "post_title": "Miniature Landmark Replicas",
+      "user_name": "User2",
+      "profile_picture": "user2_profile.jpg",
+      "post_date": "March 1, 2024",
+      "post_content": "Hi User1! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?"
+    }
+  ]
+}
