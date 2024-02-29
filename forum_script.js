@@ -1,6 +1,6 @@
 // Function to generate forum thread HTML
 function generateForumThread(forumThread) {
-  console.log("Forum Thread Generating..."
+  console.log("Forum Thread Generating...");
   var forumContainer = document.getElementById('forum-container');
   
   forumThread.forum_posts.forEach(function(post) {
