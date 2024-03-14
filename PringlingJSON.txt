@@ -8,7 +8,7 @@
     {
       "user_name": "GallaghersMallet",
       "profile_picture": "user2_profile.jpg",
-      "post_count": 2
+      "post_count": 0
     }
   ],
   "forum_posts": [
@@ -24,20 +24,6 @@
       "user_id": 2,
       "post_date": "March 1, 2024",
       "post_content": "Hi FrostBite! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?",
-      "quote": "This is another quote from the post author."
-    },
-    {
-      "post_title": "New Pringling Technique",
-      "user_id": 1,
-      "post_date": "March 3, 2024",
-      "post_content": "Hi GallaghersMallet! That's awesome! I'm glad to hear you're also into pringling. I haven't tried polymer clay yet, but I'll definitely give it a shot. Recently, I experimented with using different food items for pringling. I found that thinly sliced vegetables, like carrots and cucumbers, can create interesting textures. Have you experimented with any unconventional materials?",
-      "quote": "This is a quote from the post author."
-    },
-    {
-      "post_title": "Re: New Pringling Technique",
-      "user_id": 2,
-      "post_date": "March 4, 2024",
-      "post_content": "Hey FrostBite! That sounds fascinating! I haven't tried using food items for pringling yet, but your idea of using thinly sliced vegetables is intriguing. I'll definitely give it a try! As for unconventional materials, I once experimented with incorporating small pieces of fabric into my pringling projects. It added an interesting tactile element to the chips. Have you tried incorporating any other materials?",
       "quote": "This is another quote from the post author."
     }
   ]
