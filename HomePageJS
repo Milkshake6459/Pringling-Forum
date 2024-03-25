@@ -1,0 +1,52 @@
+// Fetch the JSON data
+fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/PringlingJSON.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Failed to fetch forum data: ' + response.status);
+    }
+    return response.json();
+  })
+  .then(jsonData => {
+    // Function to generate forum thread HTML
+    function generateForumThreads(forumData) {
+      var threadsContainer = document.getElementById('threads-container');
+
+      forumData.threads.forEach(function(thread) {
+        var threadHTML = `
+          <div class="thread-container">
+            <div class="thread-header">
+              <h2>${thread.thread_title}</h2>
+            </div>
+        `;
+
+        // Extracting the first post of each thread
+        var firstPost = thread.posts[0];
+        var user = forumData.users.find(user => user.user_name === firstPost.user_name);
+
+        threadHTML += `
+          <div class="post-info">
+            <div class="post-content">
+              <p>${firstPost.post_content}</p>
+            </div>
+            <img class="profile-picture" src="${user.profile_picture}" alt="${user.user_name} Profile Picture">
+          </div>
+          <div class="post-info">
+            <h2>${user.user_name}</h2>
+            <p>Post count: ${user.post_count}</p>
+          </div>
+        `;
+
+        threadHTML += `
+          </div>
+        `;
+
+        threadsContainer.innerHTML += threadHTML;
+      });
+    }
+
+    // Call the function with the fetched forum data
+    generateForumThreads(jsonData);
+  })
+  .catch(error => {
+    console.error('Error fetching forum data:', error);
+  });
