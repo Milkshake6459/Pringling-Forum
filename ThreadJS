@@ -1,0 +1,59 @@
+// Fetch the JSON data from Pastebin
+fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/PringlingJSON.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Failed to fetch forum data: ' + response.status);
+    }
+    return response.json();
+  })
+  .then(jsonData => {
+    // Function to generate forum thread HTML
+    function generateForumThreads(forumData) {
+      var forumContainer = document.getElementById('forum-container');
+
+      forumData.threads.forEach(function(thread) {
+        var threadHTML = `
+          <div class="thread">
+            <h2>${thread.thread_title}</h2>
+            <div class="posts">
+        `;
+        
+        thread.posts.forEach(function(post) {
+          var user = forumData.users.find(user => user.user_name === post.user_name);
+          
+          threadHTML += `
+            <div class="forum-post">
+              <div class="post-info">
+                <h3>${user.user_name}</h3>
+                <p>Post count: ${user.post_count}</p>
+                <img class="profile-picture" src="${user.profile_picture}" alt="${user.user_name} Profile Picture">
+                <p>${post.post_date}</p>
+              </div>
+              <div class="post-content">
+                <h4>${post.post_title}</h4>
+                <p>${post.post_content}</p>
+                <blockquote>${post.quote}</blockquote>
+                <div class="post-actions">
+                  <button class="reply-button">Reply</button>
+                  <button class="quote-button">Quote</button>
+                </div>
+              </div>
+            </div>
+          `;
+        });
+        
+        threadHTML += `
+            </div>
+          </div>
+        `;
+        
+        forumContainer.innerHTML += threadHTML;
+      });
+    }
+
+    // Call the function with the fetched forum data
+    generateForumThreads(jsonData);
+  })
+  .catch(error => {
+    console.error('Error fetching forum data:', error);
+  });
