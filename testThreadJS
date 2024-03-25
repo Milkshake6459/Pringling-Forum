@@ -1,0 +1,67 @@
+// Fetch the JSON data
+fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/testJSON.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Failed to fetch forum data: ' + response.status);
+    }
+    return response.json();
+  })
+  .then(jsonData => {
+    // Call the function with the fetched forum thread data
+    generateForumThread(jsonData);
+  })
+  .catch(error => console.error('Error fetching forum data:', error));
+
+// Function to generate forum thread HTML
+function generateForumThread(forumData) {
+  var forumContainer = document.getElementById('forum-container');
+
+  forumData.threads.forEach(function(thread) {
+    var threadHTML = `
+      <div class="thread-container">
+        <div class="thread-header">
+          <h2>${thread.thread_title}</h2>
+        </div>
+    `;
+
+    thread.posts.forEach(function(post) {
+      var postHTML = `
+        <div class="forum-post">
+          <div class="post-info">
+            <img class="profile-picture" src="${user.profile_picture}" alt="${user.user_name} Profile Picture">
+            <h3>${post.user_name}</h3>
+            <p>${post.post_date}</p>
+          </div>
+          <div class="post-content">
+            <p>${post.post_content}</p>
+            <blockquote>
+              ${post.quote}
+            </blockquote>
+            <button class="reply-button">Reply</button>
+            <button class="quote-button">Quote</button>
+          </div>
+        </div>
+      `;
+      threadHTML += postHTML;
+    });
+
+    threadHTML += `</div>`;
+    forumContainer.innerHTML += threadHTML;
+  });
+
+  // Add event listener to all reply buttons
+  forumContainer.querySelectorAll('.reply-button').forEach(button => {
+    button.addEventListener('click', () => {
+      // Display alert message
+      alert("Function deprecated due to bots -GallaghersMallet");
+    });
+  });
+
+  // Add event listener to all quote buttons
+  forumContainer.querySelectorAll('.quote-button').forEach(button => {
+    button.addEventListener('click', () => {
+      // Display alert message
+      alert("Function deprecated due to bots -GallaghersMallet");
+    });
+  });
+}
