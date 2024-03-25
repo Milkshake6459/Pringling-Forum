@@ -1,0 +1,20 @@
+<head>
+    <title>Pringling Forum</title>
+    <style>
+        /* Your existing CSS styles */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Pringling Forum!</h1>
+        <div class="motto">
+            <p>Where creativity meets crunchiness!</p>
+        </div>
+        <div id="threads-container">
+            <!-- Threads will be dynamically generated here -->
+        </div>
+    </div>
+
+    <script src="forum_script.js"></script>
+</body>
+</html>
