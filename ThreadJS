@@ -1,5 +1,5 @@
-// Fetch the JSON data from Pastebin
-fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/PringlingJSON.json')
+// Fetch the JSON data
+fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/testJSON.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Failed to fetch forum data: ' + response.status);
@@ -7,53 +7,60 @@ fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/Prin
     return response.json();
   })
   .then(jsonData => {
-    // Function to generate forum thread HTML
-    function generateForumThreads(forumData) {
-      var forumContainer = document.getElementById('forum-container');
-
-      forumData.threads.forEach(function(thread) {
-        var threadHTML = `
-          <div class="thread">
-            <h2>${thread.thread_title}</h2>
-            <div class="posts">
-        `;
-        
-        thread.posts.forEach(function(post) {
-          var user = forumData.users.find(user => user.user_name === post.user_name);
-          
-          threadHTML += `
-            <div class="forum-post">
-              <div class="post-info">
-                <h3>${user.user_name}</h3>
-                <p>Post count: ${user.post_count}</p>
-                <img class="profile-picture" src="${user.profile_picture}" alt="${user.user_name} Profile Picture">
-                <p>${post.post_date}</p>
-              </div>
-              <div class="post-content">
-                <h4>${post.post_title}</h4>
-                <p>${post.post_content}</p>
-                <blockquote>${post.quote}</blockquote>
-                <div class="post-actions">
-                  <button class="reply-button">Reply</button>
-                  <button class="quote-button">Quote</button>
-                </div>
-              </div>
-            </div>
-          `;
-        });
-        
-        threadHTML += `
-            </div>
-          </div>
-        `;
-        
-        forumContainer.innerHTML += threadHTML;
-      });
-    }
-
-    // Call the function with the fetched forum data
-    generateForumThreads(jsonData);
+    // Call the function with the fetched forum thread data
+    generateForumThread(jsonData);
   })
-  .catch(error => {
-    console.error('Error fetching forum data:', error);
+  .catch(error => console.error('Error fetching forum data:', error));
+
+// Function to generate forum thread HTML
+function generateForumThread(forumData) {
+  var forumContainer = document.getElementById('forum-container');
+
+  forumData.threads.forEach(function(thread) {
+    var threadHTML = `
+      <div class="thread-container">
+        <div class="thread-header">
+          <h2>${thread.thread_title}</h2>
+        </div>
+    `;
+
+    thread.posts.forEach(function(post) {
+      var postHTML = `
+        <div class="forum-post">
+          <div class="post-info">
+            <h3>${post.user_name}</h3>
+            <p>${post.post_date}</p>
+          </div>
+          <div class="post-content">
+            <p>${post.post_content}</p>
+            <blockquote>
+              ${post.quote}
+            </blockquote>
+            <button class="reply-button">Reply</button>
+            <button class="quote-button">Quote</button>
+          </div>
+        </div>
+      `;
+      threadHTML += postHTML;
+    });
+
+    threadHTML += `</div>`;
+    forumContainer.innerHTML += threadHTML;
   });
+
+  // Add event listener to all reply buttons
+  forumContainer.querySelectorAll('.reply-button').forEach(button => {
+    button.addEventListener('click', () => {
+      // Display alert message
+      alert("Function deprecated due to bots -GallaghersMallet");
+    });
+  });
+
+  // Add event listener to all quote buttons
+  forumContainer.querySelectorAll('.quote-button').forEach(button => {
+    button.addEventListener('click', () => {
+      // Display alert message
+      alert("Function deprecated due to bots -GallaghersMallet");
+    });
+  });
+}
