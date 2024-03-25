@@ -26,5 +26,7 @@
 
 <div id="forum-container"></div>
 
+<button class="reply-button">Reply</button>
+
 </body>
 </html>
