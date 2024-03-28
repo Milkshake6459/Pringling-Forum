@@ -2,14 +2,14 @@
   "users": [
     {
       "user_name": "FrostBite",
-      "profile_picture": "https://res.cloudinary.com/dfxidjmia/image/upload/v1675918266/cropped_pfp_pic_ypmo1m.png",
-      "post_count": 1
-      "quote": "This is a quote from GallaghersMallet."
+      "profile_picture": "user1_profile.jpg",
+      "post_count": 1,
+      "quote": "This is a quote from FrostBite."
     },
     {
       "user_name": "GallaghersMallet",
-      "profile_picture": "https://res.cloudinary.com/dfxidjmia/image/upload/v1675918266/cropped_pfp_pic_ypmo1m.png",
-      "post_count": 1
+      "profile_picture": "user2_profile.jpg",
+      "post_count": 1,
       "quote": "This is a quote from GallaghersMallet."
     }
   ],
@@ -18,29 +18,16 @@
       "thread_title": "Introduction to Pringling",
       "posts": [
         {
-          "post_title": "Introduction to Pringling",
           "user_name": "FrostBite",
           "post_date": "February 29, 2024",
-          "post_content": "Hey everyone, I'm really excited to be here! I've been experimenting with pringling lately and I'm amazed by the possibilities. Just yesterday, I molded a miniature sculpture of a cat into a potato chip shape. It turned out so cute! Does anyone else here enjoy pringling?",
+          "post_content": "Hey everyone, I'm really excited to be here! I've been experimenting with pringling lately and I'm amazed by the possibilities. Just yesterday, I molded a miniature sculpture of a cat into a potato chip shape. It turned out so cute! Does anyone else here enjoy pringling?"
         },
         {
-          "post_title": "RE: Introduction to Pringling",
           "user_name": "GallaghersMallet",
           "post_date": "March 1, 2024",
-          "post_content": "Hi FrostBite! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?",
-        },
-        {
-          "post_title": "RE: Introduction to Pringling",
-          "user_name": "FrostBite",
-          "post_date": "March 3, 2024",
-          "post_content": "Hey everyone! I've been exploring some new pringling techniques lately and I thought I'd share my latest experiment. I tried using metallic paints to add some shimmer to my pringled creations, and the results were amazing! The metallic finish adds a whole new dimension to the chips. Has anyone else experimented with different painting techniques?",
-        },
-        {
-          "post_title": "RE: Introduction to Pringling",
-          "user_name": "GallaghersMallet",
-          "post_date": "March 4, 2024",
-          "post_content": "Hi FrostBite! Your pringled chips with metallic finishes sound fascinating! I haven't experimented much with painting techniques, but your idea has inspired me to give it a try. I'm particularly interested in exploring the use of glow-in-the-dark paints for pringling. Imagine snacking on glow-in-the-dark chips during a movie night! Have you tried any other unconventional painting techniques?",
+          "post_content": "Hi FrostBite! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?"
         }
       ]
     }
   ]
+}
