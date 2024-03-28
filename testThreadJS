@@ -25,6 +25,9 @@ function generateForumThread(forumData) {
     `;
 
     thread.posts.forEach(function(post) {
+      // Find user details from users array
+      var user = forumData.users.find(user => user.user_name === post.user_name);
+
       var postHTML = `
         <div class="forum-post">
           <div class="post-info">
@@ -35,7 +38,7 @@ function generateForumThread(forumData) {
           <div class="post-content">
             <p>${post.post_content}</p>
             <blockquote>
-              ${post.quote}
+              ${user.quote}
             </blockquote>
             <button class="reply-button">Reply</button>
             <button class="quote-button">Quote</button>
