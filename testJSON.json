@@ -2,14 +2,14 @@
   "users": [
     {
       "user_name": "FrostBite",
-      "profile_picture": "https://github.com/Milkshake6459/Pringling-Forum/blob/211a165dfaf6b8ca05e6cd7330c221ac488fdc6a/My_pfp_temp.png",
-      "post_count": 1,
+      "profile_picture": "user1_profile.jpg",
+      "post_count": 9,
       "quote": "This is a quote from FrostBite."
     },
     {
       "user_name": "GallaghersMallet",
-      "profile_picture": "https://github.com/Milkshake6459/Pringling-Forum/blob/211a165dfaf6b8ca05e6cd7330c221ac488fdc6a/My_pfp_temp.png",
-      "post_count": 1,
+      "profile_picture": "user2_profile.jpg",
+      "post_count": 8,
       "quote": "This is a quote from GallaghersMallet."
     }
   ],
@@ -26,6 +26,51 @@
           "user_name": "GallaghersMallet",
           "post_date": "March 1, 2024",
           "post_content": "Hi FrostBite! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?"
+        }
+      ]
+    },
+    {
+      "thread_title": "Perfecting a New Pringling Technique",
+      "posts": [
+        {
+          "user_name": "FrostBite",
+          "post_date": "March 6, 2024",
+          "post_content": "Hey everyone! I've been experimenting with a new pringling technique, and I think I've finally perfected it! By using a combination of heat and pressure, I've managed to create ultra-thin and crispy potato chip sculptures with intricate designs. It's incredibly satisfying to see how far pringling can go. Has anyone else tried experimenting with different techniques?"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "March 7, 2024",
+          "post_content": "Wow, FrostBite, that sounds amazing! Your dedication to pringling is truly inspiring. I haven't tried using heat and pressure yet, but your success motivates me to give it a try. I've mainly been focusing on intricate carving techniques for my pringled sculptures. Have you encountered any challenges with your new technique?"
+        },
+        {
+          "user_name": "FrostBite",
+          "post_date": "March 8, 2024",
+          "post_content": "Thanks, GallaghersMallet! While the new technique has been successful overall, I did encounter some challenges in controlling the heat and pressure consistently. It took a lot of trial and error to find the right balance, but once I did, the results were worth it. I'm curious to hear about your experiences with intricate carving techniques!"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "March 9, 2024",
+          "post_content": "FrostBite, I can relate to the challenges of achieving consistent results with new techniques. It's all part of the learning process! As for intricate carving techniques, I've found that patience and precision are key. Sometimes, the smallest details can make the biggest difference. Have you experimented with combining different techniques in your pringling projects?"
+        },
+        {
+          "user_name": "FrostBite",
+          "post_date": "March 10, 2024",
+          "post_content": "GallaghersMallet, absolutely! I've been experimenting with combining the heat and pressure technique with intricate carving methods, and the results have been fascinating. It allows for more intricate designs while still maintaining the crispy texture of the chips. Have you tried any other combinations of techniques?"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "March 11, 2024",
+          "post_content": "FrostBite, that's fantastic to hear! Combining different techniques sounds like a great way to push the boundaries of pringling. I haven't tried combining techniques yet, but your success has inspired me to give it a try. I'm particularly interested in exploring the possibilities of combining carving with painting. Have you experimented with painting your pringled creations?"
+        },
+        {
+          "user_name": "FrostBite",
+          "post_date": "March 12, 2024",
+          "post_content": "GallaghersMallet, indeed I have! Painting adds a whole new dimension to pringling. I've experimented with acrylic paints to add vibrant colors to my sculptures, and it's been quite rewarding. I find that it allows for more creativity and expression in my designs. Have you considered incorporating painting into your pringling projects as well?"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "March 13, 2024",
+          "post_content": "FrostBite, your painted pringled creations must look stunning! I haven't delved into painting yet, but your enthusiasm has piqued my interest. In fact, your dedication to the forum and your expertise in pringling techniques are truly admirable. Would you be interested in becoming a moderator of the forum? Your insights and contributions would be invaluable in fostering a supportive and engaging community."
         }
       ]
     }
