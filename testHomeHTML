@@ -1,53 +1,154 @@
-// Fetch the JSON data
-fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/testJSON.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Failed to fetch forum data: ' + response.status);
-    }
-    return response.json();
-  })
-  .then(jsonData => {
-    // Function to generate forum thread HTML
-    function generateTopicThreads(forumData) {
-      var threadsContainer = document.getElementById('topic-threads-container');
+<head>
+    <title>Pringling Forum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .motto {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .threads-container {
+            margin-top: 20px;
+        }
+        .thread-category {
+            margin-bottom: 20px;
+        }
+        .thread-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .thread-container {
+            border: 1px solid #ccc;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        .thread-header {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .thread-header h2 {
+            margin: 0;
+            color: #333;
+        }
+        .post-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .post-title {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .post-content {
+            color: #666;
+            margin-left: 60px; /* Adjust as needed */
+        }
+        blockquote {
+            margin: 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Pringling Forum!</h1>
+        <div class="motto">
+            <p>Where creativity meets crunchiness!</p>
+        </div>
 
-      forumData.threads.forEach(function(thread) {
-        var threadHTML = `
-          <div class="thread-container">
-            <div class="thread-header">
-              <h2>${thread.thread_title}</h2>
+        <!-- Container for Ongoing Threads -->
+        <div class="threads-container" id="ongoing-threads-container">
+            <div class="thread-category">
+                <h2 class="thread-title">Ongoing Threads</h2>
+                <!-- Display ongoing threads here -->
             </div>
-        `;
+        </div>
+    </div>
 
-        // Extracting the first post of each thread
-        var firstPost = thread.posts[0];
-        var user = forumData.users.find(user => user.user_name === firstPost.user_name);
-
-        threadHTML += `
-          <div class="post-info">
-            <div class="profile-info">
-              <img class="profile-picture" src="${user.profile_picture}" alt="${user.user_name} Profile Picture">
-              <h3>${user.user_name}</h3>
-              <p>Post count: ${user.post_count}</p>
+    <!-- Container for Topic Threads -->
+    <div class="container">
+        <div class="threads-container" id="topic-threads-container">
+            <div class="thread-category">
+                <h2 class="thread-title">Topic Threads</h2>
+                <!-- Threads about community guidelines -->
+                <div class="thread-container" id="community-guidelines-container">
+                    <div class="thread-header">
+                        <h3>Community Guidelines</h3>
+                    </div>
+                </div>
+                <!-- Threads for tutorials -->
+                <div class="thread-container" id="tutorials-container">
+                    <div class="thread-header">
+                        <h3>Tutorials</h3>
+                    </div>
+                </div>
+                <!-- Threads for inspiration -->
+                <div class="thread-container" id="inspiration-container">
+                    <div class="thread-header">
+                        <h3>Inspiration</h3>
+                    </div>
+                </div>
+                <!-- Threads for challenges -->
+                <div class="thread-container" id="challenges-container">
+                    <div class="thread-header">
+                        <h3>Challenges</h3>
+                    </div>
+                </div>
+                <!-- Threads for gallery -->
+                <div class="thread-container" id="gallery-container">
+                    <div class="thread-header">
+                        <h3>Gallery</h3>
+                    </div>
+                </div>
+                <!-- Threads for resources -->
+                <div class="thread-container" id="resources-container">
+                    <div class="thread-header">
+                        <h3>Resources</h3>
+                    </div>
+                </div>
+                <!-- Threads for events -->
+                <div class="thread-container" id="events-container">
+                    <div class="thread-header">
+                        <h3>Events</h3>
+                    </div>
+                </div>
             </div>
-            <div class="post-content">
-              <p>${firstPost.post_content}</p>
-              <p>Posts in thread: ${thread.posts.length}</p>
-            </div>
-          </div>
-        `;
+        </div>
+    </div>
 
-        threadHTML += `
-          </div>
-        `;
-
-        threadsContainer.innerHTML += threadHTML;
-      });
-    }
-
-    // Call the function with the fetched forum data
-    generateTopicThreads(jsonData);
-  })
-  .catch(error => {
-    console.error('Error fetching forum data:', error);
-  });
+    <!-- JavaScript code -->
+    <script src="homepage.js"></script>
+</body>
+</html>
