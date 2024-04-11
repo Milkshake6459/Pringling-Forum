@@ -2,13 +2,13 @@
   "users": [
     {
       "user_name": "FrostBite",
-      "profile_picture": "user1_profile.jpg",
+      "profile_picture": "https://github.com/Milkshake6459/Pringling-Forum/blob/8d29644cd07575efdb5dc11cf63a0bc25419d8e2/My_pfp_temp.png",
       "post_count": 9,
       "quote": "This is a quote from FrostBite."
     },
     {
       "user_name": "GallaghersMallet",
-      "profile_picture": "user2_profile.jpg",
+      "profile_picture": "https://github.com/Milkshake6459/Pringling-Forum/blob/8d29644cd07575efdb5dc11cf63a0bc25419d8e2/My_pfp_temp.png",
       "post_count": 8,
       "quote": "This is a quote from GallaghersMallet."
     }
