@@ -38,7 +38,7 @@ function generateForumThread(forumData) {
           <div class="post-content">
             <p>${post.post_content}</p>
             <blockquote>
-              ${user.quote}
+              <em>${user.quote}</em>
             </blockquote>
             <button class="reply-button">Reply</button>
             <button class="quote-button">Quote</button>
