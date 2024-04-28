@@ -105,44 +105,44 @@
                 <!-- Threads about community guidelines -->
                 <div class="thread-container" id="community-guidelines-container">
                     <div class="thread-header">
-                        <h3>Community Guidelines</h3>
+                        <h3><a href="https://codepen.io/DietJeffrey/pen/dyLLoJN" target="_blank">Community Guidelines</a></h3>
                     </div>
                 </div>
                 <!-- Threads for tutorials -->
                 <div class="thread-container" id="tutorials-container">
-                    <div class="thread-header">
-                        <h3>Tutorials</h3>
-                    </div>
+                    <strong> <div class="thread-header">
+                         <u <button class="thread-button" onclick="alert('Thread locked due to bots. -GallaghersMallet')">Tutorials</button> </u>
+              </div> </strong>
                 </div>
                 <!-- Threads for inspiration -->
                 <div class="thread-container" id="inspiration-container">
-                    <div class="thread-header">
-                        <h3>Inspiration</h3>
-                    </div>
+                    <strong> <div class="thread-header">
+                        <u <button class="thread-button" onclick="alert('Thread locked due to bots. -GallaghersMallet')">Inspiration</button> </u>
+                      </div> </strong>
                 </div>
                 <!-- Threads for challenges -->
                 <div class="thread-container" id="challenges-container">
                     <div class="thread-header">
-                        <h3>Challenges</h3>
+                        <h3><a href="https://codepen.io/DietJeffrey/pen/VwNNjvy" target="_blank">Challenges</a></h3>
                     </div>
                 </div>
                 <!-- Threads for gallery -->
                 <div class="thread-container" id="gallery-container">
-                    <div class="thread-header">
-                        <h3>Gallery</h3>
-                    </div>
+                    <strong> <div class="thread-header">
+                        <u <button class="thread-button" onclick="alert('Thread locked due to bots. -GallaghersMallet')">Gallery</button> </u>
+</div> </strong>
                 </div>
                 <!-- Threads for resources -->
                 <div class="thread-container" id="resources-container">
                     <div class="thread-header">
-                        <h3>Resources</h3>
+                        <h3><a href="https://codepen.io/DietJeffrey/pen/qBwwNZX" target="_blank">Resources</a></h3>
                     </div>
                 </div>
                 <!-- Threads for events -->
                 <div class="thread-container" id="events-container">
-                    <div class="thread-header">
-                        <h3>Events</h3>
-                    </div>
+                    <strong> <div class="thread-header">
+                        <u <button class="thread-button" onclick="alert('Thread locked due to bots. -GallaghersMallet')">Events</button> </u>
+                    </div> </strong>
                 </div>
             </div>
         </div>
