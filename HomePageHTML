@@ -1,7 +1,84 @@
 <head>
     <title>Pringling Forum</title>
     <style>
-        /* Your existing CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .motto {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .threads-container {
+            margin-top: 20px;
+        }
+        .thread-category {
+            margin-bottom: 20px;
+        }
+        .thread-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .thread-container {
+            border: 1px solid #ccc;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+        .thread-header {
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .thread-header h2 {
+            margin: 0;
+            color: #333;
+        }
+        .post-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .post-title {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .post-content {
+            color: #666;
+            margin-left: 60px; /* Adjust as needed */
+        }
+        blockquote {
+            margin: 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #ccc;
+        }
     </style>
 </head>
 <body>
@@ -10,11 +87,68 @@
         <div class="motto">
             <p>Where creativity meets crunchiness!</p>
         </div>
-        <div id="threads-container">
-            <!-- Threads will be dynamically generated here -->
+
+        <!-- Container for Ongoing Threads -->
+        <div class="threads-container" id="ongoing-threads-container">
+            <div class="thread-category">
+                <h2 class="thread-title">Ongoing Threads</h2>
+                <!-- Display ongoing threads here -->
+            </div>
         </div>
     </div>
 
-    <script src="forum_script.js"></script>
+    <!-- Container for Topic Threads -->
+    <div class="container">
+        <div class="threads-container" id="topic-threads-container">
+            <div class="thread-category">
+                <h2 class="thread-title">Topic Threads</h2>
+                <!-- Threads about community guidelines -->
+                <div class="thread-container" id="community-guidelines-container">
+                    <div class="thread-header">
+                        <h3><a href="https://codepen.io/DietJeffrey/pen/dyLLoJN" target="_blank">Community Guidelines</a></h3>
+                    </div>
+                </div>
+                <!-- Threads for tutorials -->
+                <div class="thread-container" id="tutorials-container">
+                    <strong> <div class="thread-header">
+                         <u <button class="thread-button" onclick="alert('Thread locked due to bots. -GallaghersMallet')">Tutorials</button> </u>
+              </div> </strong>
+                </div>
+                <!-- Threads for inspiration -->
+                <div class="thread-container" id="inspiration-container">
+                    <strong> <div class="thread-header">
+                        <u <button class="thread-button" onclick="alert('Thread locked due to bots. -GallaghersMallet')">Inspiration</button> </u>
+                      </div> </strong>
+                </div>
+                <!-- Threads for challenges -->
+                <div class="thread-container" id="challenges-container">
+                    <div class="thread-header">
+                        <h3><a href="https://codepen.io/DietJeffrey/pen/VwNNjvy" target="_blank">Challenges</a></h3>
+                    </div>
+                </div>
+                <!-- Threads for gallery -->
+                <div class="thread-container" id="gallery-container">
+                    <strong> <div class="thread-header">
+                        <u <button class="thread-button" onclick="alert('Thread locked due to bots. -GallaghersMallet')">Gallery</button> </u>
+</div> </strong>
+                </div>
+                <!-- Threads for resources -->
+                <div class="thread-container" id="resources-container">
+                    <div class="thread-header">
+                        <h3><a href="https://codepen.io/DietJeffrey/pen/qBwwNZX" target="_blank">Resources</a></h3>
+                    </div>
+                </div>
+                <!-- Threads for events -->
+                <div class="thread-container" id="events-container">
+                    <strong> <div class="thread-header">
+                        <u <button class="thread-button" onclick="alert('Thread locked due to bots. -GallaghersMallet')">Events</button> </u>
+                    </div> </strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript code -->
+    <script src="homepage.js"></script>
 </body>
 </html>
