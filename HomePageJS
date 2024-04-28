@@ -1,5 +1,5 @@
 // Fetch the JSON data
-fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/PringlingJSON.json')
+fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/testJSON.json')
   .then(response => {
     if (!response.ok) {
       throw new Error('Failed to fetch forum data: ' + response.status);
@@ -8,14 +8,16 @@ fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/Prin
   })
   .then(jsonData => {
     // Function to generate forum thread HTML
-    function generateForumThreads(forumData) {
-      var threadsContainer = document.getElementById('threads-container');
+    function generateTopicThreads(forumData) {
+      var threadsContainer = document.getElementById('ongoing-threads-container');
 
-      forumData.threads.forEach(function(thread) {
+      // Iterate over the first three threads only
+      for (let i = 0; i < Math.min(3, forumData.threads.length);i++) {
+        const thread = forumData.threads[i];
         var threadHTML = `
           <div class="thread-container">
             <div class="thread-header">
-              <h2>${thread.thread_title}</h2>
+              <h3><a href="${thread.url}" target="_blank">${thread.thread_title}</a></h3>
             </div>
         `;
 
@@ -25,14 +27,15 @@ fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/Prin
 
         threadHTML += `
           <div class="post-info">
+            <div class="profile-info">
+              <img class="profile-picture" src="${user.profile_picture}" alt="${user.user_name} Profile Picture">
+              <h3>${user.user_name}</h3>
+              <p>Post count: ${user.post_count}</p>
+            </div>
             <div class="post-content">
               <p>${firstPost.post_content}</p>
+              <p>Posts in thread: ${thread.posts.length}</p>
             </div>
-            <img class="profile-picture" src="${user.profile_picture}" alt="${user.user_name} Profile Picture">
-          </div>
-          <div class="post-info">
-            <h2>${user.user_name}</h2>
-            <p>Post count: ${user.post_count}</p>
           </div>
         `;
 
@@ -41,11 +44,11 @@ fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/Prin
         `;
 
         threadsContainer.innerHTML += threadHTML;
-      });
+      }
     }
 
     // Call the function with the fetched forum data
-    generateForumThreads(jsonData);
+    generateTopicThreads(jsonData);
   })
   .catch(error => {
     console.error('Error fetching forum data:', error);
