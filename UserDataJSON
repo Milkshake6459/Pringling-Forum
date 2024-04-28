@@ -2,35 +2,47 @@
   "users": [
     {
       "user_name": "FrostBite",
-      "profile_picture": "https://res.cloudinary.com/dfxidjmia/image/upload/v1675918266/cropped_pfp_pic_ypmo1m.png",
-      "post_count": 7,
+      "profile_picture": "https://res.cloudinary.com/dfxidjmia/image/upload/v1714308037/MM7Treble-ezgif.com-webp-to-jpg-converter2_l8lmxn.jpg",
+      "post_count": 8,
       "quote": "Embrace the crunch! Pringling is not just an art form; it's a delicious adventure waiting to be explored."
     },
     {
       "user_name": "GallaghersMallet",
       "profile_picture": "https://res.cloudinary.com/dfxidjmia/image/upload/v1714270486/gallagher-cause-of-death-1668231918366_1_250x131-ezgif.com-webp-to-jpg-converter_jgd7ut.jpg",
-      "post_count": 7,
+      "post_count": 29,
       "quote": "Creating art is my passion, and pringling is my canvas. Let's sculpt some crispy masterpieces!"
     }
   ],
   "threads": [
     {
       "thread_title": "Introduction to Pringling",
+      "url": "https://codepen.io/DietJeffrey/pen/VwNwjNR",
       "posts": [
         {
           "user_name": "FrostBite",
           "post_date": "February 29, 2024",
-          "post_content": "Hey everyone, I'm really excited to be here! I've been experimenting with pringling lately and I'm amazed by the possibilities. Just yesterday, I molded a miniature sculpture of a cat into a potato chip shape. It turned out so cute! Does anyone else here enjoy pringling?"
+          "post_content": "Hey everyone, I'm really excited for my first post!  I've been experimenting with pringling lately and I'm amazed by the possibilities. Just yesterday, I molded a miniature sculpture of a cat into a potato chip shape. It turned out so cute!  Really glad that I stumbled upon this forum!"
         },
         {
           "user_name": "GallaghersMallet",
           "post_date": "March 1, 2024",
           "post_content": "Hi FrostBite! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?"
+        },
+        {
+          "user_name": "FrostBite",
+          "post_date": "March 1, 2024",
+          "post_content": "Not yet.  I've only done a few chips so far.  I'll have to check it out!  I'll be sure to keep you updated!"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "March 1, 2024",
+          "post_content": "Sounds good!  Can't wait to see what you come up with!"
         }
       ]
     },
     {
       "thread_title": "Perfecting a New Pringling Technique",
+      "url": "https://codepen.io/DietJeffrey/pen/KKYbajo",
       "posts": [
         {
           "user_name": "FrostBite",
@@ -75,7 +87,8 @@
       ]
     },
     {
-      "thread_title": "Latest Expirement",
+      "thread_title": "Latest Experiment",
+      "url": "https://codepen.io/DietJeffrey/pen/NWmedQw",
       "posts": [
         {
           "user_name": "FrostBite",
@@ -104,25 +117,25 @@
       "posts": [
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 15, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Hello everyone! As a community, it's important for us to establish some guidelines to ensure that our forum remains a welcoming and respectful space for all members. I propose the following guidelines:",
           "quote": "Creating art is my passion, and pringling is my canvas. Let's sculpt some crispy masterpieces!"
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 15, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "1. Respect each other: Treat fellow members with kindness and respect. We may have different perspectives, but let's engage in constructive discussions.",
           "quote": "Creating art is my passion, and pringling is my canvas. Let's sculpt some crispy masterpieces!"
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 15, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "2. No hate speech or harassment: We have a zero-tolerance policy for hate speech, harassment, or any form of discrimination. Let's keep our discussions inclusive and welcoming to all.",
           "quote": "Creating art is my passion, and pringling is my canvas. Let's sculpt some crispy masterpieces!"
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 15, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "3. Stay on topic: While we encourage diverse discussions, let's try to keep our conversations relevant to pringling and related topics.",
           "quote": "Creating art is my passion, and pringling is my canvas. Let's sculpt some crispy masterpieces!"
         }
@@ -156,60 +169,80 @@
       "posts": [
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Hey everyone! I've been thinking about fun challenges we can pursue as a pringling community to spark creativity and inspire each other. Let's brainstorm some exciting ideas and embark on these challenges together! Whether it's creating intricate designs, experimenting with unconventional materials, or pushing the boundaries of pringling artistry, I'm eager to hear your suggestions. Let's make pringling even more enjoyable and rewarding!"
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Miniature Masterpieces: Create miniature sculptures using pringling techniques, focusing on intricate details and precision."
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Texture Exploration: Experiment with different textures in pringling, such as smooth, rough, or patterned surfaces."
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Food Fusion: Incorporate edible elements into pringling projects, such as spices, herbs, or flavored oils, to enhance taste and aroma."
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Natural Inspirations: Draw inspiration from nature and pringle sculptures that resemble flowers, leaves, or other organic forms."
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Fantasy Creations: Explore the realm of fantasy by pringling mythical creatures, fantastical landscapes, or magical artifacts."
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Upcycling Challenge: Repurpose everyday objects into pringled artworks, giving new life to old items and reducing waste."
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Collaborative Projects: Partner with other pringlers to create collaborative artworks, where each participant contributes a unique element to the final piece."
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Experimental Techniques: Push the boundaries of pringling by trying out new techniques, such as layering, sculpting, or mixed media integration."
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Cultural Influences: Explore different cultures and traditions through pringling, incorporating elements of art, architecture, or symbolism from around the world."
         },
         {
           "user_name": "GallaghersMallet",
-          "post_date": "April 25, 2024",
+          "post_date": "February 3rd, 2024",
           "post_content": "Interactive Installations: Create pringling installations that invite viewer interaction, such as puzzles, games, or immersive experiences."
         }
       ]
-    }
+    },
+    {
+      "thread_title": "Pringling Resources",
+      "posts": [
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "February 4th, 2024",
+          "post_content": "Hey fellow pringlers!  As we dive deeper into the world of pringling, it's essential to have access to the right resources to fuel our creativity and passion for this unique art form. In this thread, let's share and discuss various pringling resources, including materials, tools, cosmetic supplies and more!"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "February 4th, 2024",
+          "post_content": "Materials:<br><br>- Polymer clay: Explore a wide range of colors and textures to bring your pringling visions to life.<br>- Edible ingredients: Experiment with different food items like potato chips, crackers, or pretzels for tasty pringling projects.<br>- Paints and pigments: Add vibrant colors and special effects to your sculptures using acrylic paints, metallic pigments, or food-safe coloring.<br>- Adhesives: Choose the right adhesive for bonding pringled elements together, such as edible glue, epoxy resin, or hot glue."
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "February 4th, 2024",
+          "post_content": "Tools and Hardware:<br><br>- Sculpting tools: Invest in a set of high-quality sculpting tools for shaping, carving, and detailing your pringled creations.<br>- Baking equipment: Ensure even baking of polymer clay sculptures with a dedicated oven or toaster oven.<br>- Painting supplies: Stock up on brushes, palettes, and other painting accessories for adding the finishing touches to your pringled artworks.<br>- Safety gear: Protect yourself with gloves, goggles, and masks when working with certain materials or chemicals."
+        }
+      ]
+    } 
   ]
 }
