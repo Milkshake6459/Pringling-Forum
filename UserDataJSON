@@ -3,12 +3,14 @@
     {
       "user_name": "FrostBite",
       "profile_picture": "https://res.cloudinary.com/dfxidjmia/image/upload/v1675918266/cropped_pfp_pic_ypmo1m.png",
-      "post_count": 1
+      "post_count": 7,
+      "quote": "Embrace the crunch! Pringling is not just an art form; it's a delicious adventure waiting to be explored."
     },
     {
       "user_name": "GallaghersMallet",
       "profile_picture": "https://res.cloudinary.com/dfxidjmia/image/upload/v1675918266/cropped_pfp_pic_ypmo1m.png",
-      "post_count": 1
+      "post_count": 7,
+      "quote": "Creating art is my passion, and pringling is my canvas. Let's sculpt some crispy masterpieces!"
     }
   ],
   "threads": [
@@ -16,32 +18,84 @@
       "thread_title": "Introduction to Pringling",
       "posts": [
         {
-          "post_title": "Introduction to Pringling",
           "user_name": "FrostBite",
           "post_date": "February 29, 2024",
-          "post_content": "Hey everyone, I'm really excited to be here! I've been experimenting with pringling lately and I'm amazed by the possibilities. Just yesterday, I molded a miniature sculpture of a cat into a potato chip shape. It turned out so cute! Does anyone else here enjoy pringling?",
-          "quote": "This is a quote from the post author."
+          "post_content": "Hey everyone, I'm really excited to be here! I've been experimenting with pringling lately and I'm amazed by the possibilities. Just yesterday, I molded a miniature sculpture of a cat into a potato chip shape. It turned out so cute! Does anyone else here enjoy pringling?"
         },
         {
-          "post_title": "RE: Introduction to Pringling",
           "user_name": "GallaghersMallet",
           "post_date": "March 1, 2024",
-          "post_content": "Hi FrostBite! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?",
-          "quote": "This is another quote from the post author."
-        },
+          "post_content": "Hi FrostBite! Your pringled cat sounds adorable! I'm also a fan of pringling. I've been working on creating miniature replicas of famous landmarks using polymer clay. It's challenging but incredibly rewarding. Have you tried any other shapes or materials for pringling?"
+        }
+      ]
+    },
+    {
+      "thread_title": "Perfecting a New Pringling Technique",
+      "posts": [
         {
-          "post_title": "RE: Introduction to Pringling",
           "user_name": "FrostBite",
-          "post_date": "March 3, 2024",
-          "post_content": "Hey everyone! I've been exploring some new pringling techniques lately and I thought I'd share my latest experiment. I tried using metallic paints to add some shimmer to my pringled creations, and the results were amazing! The metallic finish adds a whole new dimension to the chips. Has anyone else experimented with different painting techniques?",
-          "quote": "This is a quote from the post author."
+          "post_date": "March 6, 2024",
+          "post_content": "Hey everyone! I've been experimenting with a new pringling technique, and I think I've finally perfected it! By using a combination of heat and pressure, I've managed to create ultra-thin and crispy potato chip sculptures with intricate designs. It's incredibly satisfying to see how far pringling can go. Has anyone else tried experimenting with different techniques?"
         },
         {
-          "post_title": "RE: Introduction to Pringling",
           "user_name": "GallaghersMallet",
-          "post_date": "March 4, 2024",
-          "post_content": "Hi FrostBite! Your pringled chips with metallic finishes sound fascinating! I haven't experimented much with painting techniques, but your idea has inspired me to give it a try. I'm particularly interested in exploring the use of glow-in-the-dark paints for pringling. Imagine snacking on glow-in-the-dark chips during a movie night! Have you tried any other unconventional painting techniques?",
-          "quote": "This is another quote from the post author."
+          "post_date": "March 7, 2024",
+          "post_content": "Wow, FrostBite, that sounds amazing! Your dedication to pringling is truly inspiring. I haven't tried using heat and pressure yet, but your success motivates me to give it a try. I've mainly been focusing on intricate carving techniques for my pringled sculptures. Have you encountered any challenges with your new technique?"
+        },
+        {
+          "user_name": "FrostBite",
+          "post_date": "March 8, 2024",
+          "post_content": "Thanks, GallaghersMallet! While the new technique has been successful overall, I did encounter some challenges in controlling the heat and pressure consistently. It took a lot of trial and error to find the right balance, but once I did, the results were worth it. I'm curious to hear about your experiences with intricate carving techniques!"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "March 9, 2024",
+          "post_content": "FrostBite, I can relate to the challenges of achieving consistent results with new techniques. It's all part of the learning process! As for intricate carving techniques, I've found that patience and precision are key. Sometimes, the smallest details can make the biggest difference. Have you experimented with combining different techniques in your pringling projects?"
+        },
+        {
+          "user_name": "FrostBite",
+          "post_date": "March 10, 2024",
+          "post_content": "GallaghersMallet, absolutely! I've been experimenting with combining the heat and pressure technique with intricate carving methods, and the results have been fascinating. It allows for more intricate designs while still maintaining the crispy texture of the chips. Have you tried any other combinations of techniques?"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "March 11, 2024",
+          "post_content": "FrostBite, that's fantastic to hear! Combining different techniques sounds like a great way to push the boundaries of pringling. I haven't tried combining techniques yet, but your success has inspired me to give it a try. I'm particularly interested in exploring the possibilities of combining carving with painting. Have you experimented with painting your pringled creations?"
+        },
+        {
+          "user_name": "FrostBite",
+          "post_date": "March 12, 2024",
+          "post_content": "GallaghersMallet, indeed I have! Painting adds a whole new dimension to pringling. I've experimented with acrylic paints to add vibrant colors to my sculptures, and it's been quite rewarding. I find that it allows for more creativity and expression in my designs. Have you considered incorporating painting into your pringling projects as well?"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "March 13, 2024",
+          "post_content": "FrostBite, your painted pringled creations must look stunning! I haven't delved into painting yet, but your enthusiasm has piqued my interest. In fact, your dedication to the forum and your expertise in pringling techniques are truly admirable. Would you be interested in becoming a moderator of the forum? Your insights and contributions would be invaluable in fostering a supportive and engaging community."
+        }
+      ]
+    },
+    {
+      "thread_title": "Latest Expirement",
+      "posts": [
+        {
+          "user_name": "FrostBite",
+          "post_date": "April 21, 2024",
+          "post_content": "Hey everyone! I've been exploring some new pringling techniques lately and I thought I'd share my latest experiment. I tried using metallic paints to add some shimmer to my pringled creations, and the results were amazing! The metallic finish adds a whole new dimension to the chips. Has anyone else experimented with different painting techniques?"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "April 21, 2024",
+          "post_content": "Hi FrostBite! Your pringled chips with metallic finishes sound fascinating! I haven't experimented much with painting techniques, but your idea has inspired me to give it a try. I'm particularly interested in exploring the use of glow-in-the-dark paints for pringling. Imagine snacking on glow-in-the-dark chips during a movie night! Have you tried any other unconventional painting techniques?"
+        },
+        {
+          "user_name": "FrostBite",
+          "post_date": "April 21, 2024",
+          "post_content": "Hey GallaghersMallet! I'm glad my experiment with metallic paints sparked your interest! Glow-in-the-dark paints sound like a fun idea, especially for themed movie nights. As for unconventional techniques, I once tried incorporating crushed gemstones into my pringling projects for a sparkly effect. It was a bit tricky to get the texture just right, but the results were stunning! Have you ever experimented with adding unusual textures or materials to your pringled creations?"
+        },
+        {
+          "user_name": "GallaghersMallet",
+          "post_date": "April 21, 2024",
+          "post_content": "Wow, FrostBite! Using crushed gemstones for pringling is a brilliant idea! Not only does it add a touch of luxury to the chips, but it also introduces unique textures and colors. I can imagine how the light would reflect off the chips, creating a dazzling display. Your creativity knows no bounds! Have you experimented with different types of gemstones, or perhaps combined them with other materials for even more striking effects?"
         }
       ]
     }
