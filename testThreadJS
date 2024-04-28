@@ -8,49 +8,46 @@ fetch('https://raw.githubusercontent.com/Milkshake6459/Pringling-Forum/main/test
   })
   .then(jsonData => {
     // Call the function with the fetched forum thread data
-    generateForumThread(jsonData);
+    generateForumThread(jsonData, jsonData.threads[0]); // Passing jsonData as a parameter
   })
   .catch(error => console.error('Error fetching forum data:', error));
 
 // Function to generate forum thread HTML
-function generateForumThread(forumData) {
+function generateForumThread(jsonData, thread) { // Accept jsonData as a parameter
   var forumContainer = document.getElementById('forum-container');
+  var threadHTML = `
+    <div class="thread-container">
+      <div class="thread-header">
+        <h2>${thread.thread_title}</h2>
+      </div>
+  `;
 
-  forumData.threads.forEach(function(thread) {
-    var threadHTML = `
-      <div class="thread-container">
-        <div class="thread-header">
-          <h2>${thread.thread_title}</h2>
+  thread.posts.forEach(function(post) {
+    // Find user details from users array
+    var user = jsonData.users.find(user => user.user_name === post.user_name);
+
+    var postHTML = `
+      <div class="forum-post">
+        <div class="post-info">
+          <img class="profile-picture" src="${user.profile_picture}" alt="${user.user_name} Profile Picture">
+          <h3>${post.user_name}</h3>
+          <p>${post.post_date}</p>
         </div>
+        <div class="post-content">
+          <p>${post.post_content}</p>
+          <blockquote>
+            <em>${user.quote}</em>
+          </blockquote>
+          <button class="reply-button">Reply</button>
+          <button class="quote-button">Quote</button>
+        </div>
+      </div>
     `;
-
-    thread.posts.forEach(function(post) {
-      // Find user details from users array
-      var user = forumData.users.find(user => user.user_name === post.user_name);
-
-      var postHTML = `
-        <div class="forum-post">
-          <div class="post-info">
-            <img class="profile-picture" src="${user.profile_picture}" alt="${user.user_name} Profile Picture">
-            <h3>${post.user_name}</h3>
-            <p>${post.post_date}</p>
-          </div>
-          <div class="post-content">
-            <p>${post.post_content}</p>
-            <blockquote>
-              <em>${user.quote}</em>
-            </blockquote>
-            <button class="reply-button">Reply</button>
-            <button class="quote-button">Quote</button>
-          </div>
-        </div>
-      `;
-      threadHTML += postHTML;
-    });
-
-    threadHTML += `</div>`;
-    forumContainer.innerHTML += threadHTML;
+    threadHTML += postHTML;
   });
+
+  threadHTML += `</div>`;
+  forumContainer.innerHTML += threadHTML;
 
   // Add event listener to all reply buttons
   forumContainer.querySelectorAll('.reply-button').forEach(button => {
